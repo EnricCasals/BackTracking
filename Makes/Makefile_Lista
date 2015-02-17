@@ -1,0 +1,7 @@
+all: test
+Lot.o: Llista_Emp.c Llista_Emp.h  
+	gcc -c Llista_Emp.c  
+main_Llista_Test.o: main_Llista_Test.c Llista_Emp.h
+	gcc -c main_Llista_Test.c
+test: Lot.o  main_Llista_Test.o 
+	gcc Llista_Emp.o main_Llista_Test.o -o test 

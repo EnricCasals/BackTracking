@@ -1,0 +1,6 @@
+-- Lot 1 Client Ric --
+	Producte: tes34ting 
+	Producte: un 
+-- Lot 2 Client Pobre --
+	Producte: un 
+	Producte: dos 

@@ -1,0 +1,3 @@
+Nom: tes34ting   - Cantitat: 1
+Nom: un   - Cantitat: 2
+Nom: dos   - Cantitat: 1

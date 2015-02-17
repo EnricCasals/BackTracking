@@ -1,0 +1,7 @@
+all: test
+Lot.o: Lot.c Lot.h  
+	gcc -c Lot.c  
+main_Lot_Test.o: main_Lot_Test.c Lot.h
+	gcc -c main_Lot_Test.c
+test: Lot.o  main_Lot_Test.o 
+	gcc Lot.o main_Lot_Test.o -o test 
